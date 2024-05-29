@@ -1,0 +1,26 @@
+.totalDiv {
+    height: 100px;
+    width: 300px;
+    /* border: 1px solid red; */
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    font-size: larger;
+    font-weight: bold;
+    margin-top: 50px;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px 10px;
+    color: rgb(114, 2, 2)
+}
+
+.qty {
+    font-weight: bold;
+    font-size: xx-large;
+    color: rgb(114, 2, 2);
+    margin-left: 30%;
+}
+
+.symbol {
+    cursor: pointer;
+}
+

@@ -1,0 +1,129 @@
+    :root {
+        --main-color: rgb(104, 117, 217);
+        --main-color-hover: rgb(104, 117, 217, 0.2);
+        --track-color: white;
+    }
+
+    .container {
+        height: 87vh;
+        width: 99.6vw;
+        /* border: 1px solid red; */
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .filterDiv {
+        width: 17%;
+        border-top: 3px solid red;
+        height: 65%;
+        overflow: scroll;
+        position: fixed;
+        top: 20%;
+        border-radius: 20px 20px;
+        margin-left: 8px;
+        box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2);
+        border-bottom: 3px solid red;
+        background-color: rgb(255, 222, 255);
+        text-align: center;
+        color: brown;
+
+    }
+
+    .filterDiv::-webkit-scrollbar {
+        display: none;
+    }
+
+    .checkBox {
+        position: absolute;
+        left: 10%;
+        font-size: larger;
+
+    }
+
+    .productDiv {
+        width: 80%;
+        margin-left: 20%;
+        /* border: 1px solid red; */
+
+    }
+
+    .input {
+        position: absolute;
+        left: 50%;
+        margin-top: 10px;
+        width: 20%;
+        height: 30px;
+        border-radius: 20px 20px;
+        text-align: center;
+
+    }
+
+    .cardContainer {
+
+        height: 100%;
+        /* border: 1px solid red; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin-top: 60px;
+    }
+
+    .card {
+        min-width: 300px;
+        height: 500px;
+        box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.3);
+        border-radius: 10px 10px;
+        border-top: 3px solid rgb(51, 0, 255);
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+        padding-left: 30px;
+
+    }
+
+    .img {
+        margin-top: 10px;
+        height: 300px;
+        width: 250px;
+
+    }
+
+    .btn {
+        width: 150px;
+        padding: 10px;
+        position: relative;
+        bottom: 15px;
+        left: 50px;
+        background-color: rgb(121, 121, 248);
+        font-size: larger;
+        border-radius: 10px 10px;
+        border-color: blue;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        opacity: 0.9;
+    }
+
+    .description {
+        font-size: larger;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: 100;
+
+    }
+
+    .price {
+        margin-top: -10px;
+        margin-bottom: 30px;
+    }
+
+    .select {
+        height: 30px;
+        width: 150px;
+        background-color: rgb(255, 222, 255);
+        color: brown;
+        border-radius: 10px 10px;
+        border-color: red;
+        padding: 5px;
+        font-weight: bold;
+    }

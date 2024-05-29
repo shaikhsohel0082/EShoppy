@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.nav {
+    height: max-content;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: self-start;
+    /* border: 2px dotted red; */
+    font-size: 1.2rem;
+    font-weight: bold;
+    background-color: rgba(240, 110, 234, 0.71);
+    color: red;
+}
+
+a {
+    text-decoration: none;
+    color: red;
+}
+
+.rightNav {
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.rightNav p {
+    display: flex;
+    align-items: center;
+}
+
+.appName {
+    margin-left: 20px;
+
+}
+
+.appName p {
+    display: flex;
+    align-items: center;
+
+
+}
+
+.img {
+    width: 50px;
+    height: 50px;
+    margin-right: 5px;
+}

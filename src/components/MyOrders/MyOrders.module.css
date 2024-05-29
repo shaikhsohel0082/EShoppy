@@ -1,0 +1,24 @@
+.table {
+    height: fit-content;
+    margin-top: 10px;
+    margin-left: 20%;
+    padding: 10px;
+    color: rgb(5, 127, 132);
+
+}
+
+.caption {
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+    color: rgb(145, 31, 31);
+}
+
+.table th {
+    padding: 10px;
+}
+
+.total {
+    text-align: right;
+    font-size: larger;
+}
