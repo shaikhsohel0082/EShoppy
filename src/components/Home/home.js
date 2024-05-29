@@ -29,7 +29,7 @@ export default function Home() {
   const navigate = useNavigate();
   useEffect(() => {
     const isDataAdded = localStorage.getItem("dataAdded");
-    // console.log(isDataAdded);
+    console.log(isDataAdded);
     if (!isDataAdded) {
       async function addDataToDB() {
         await addDoc(collection(db, "products"), {
@@ -43,11 +43,11 @@ export default function Home() {
   }, []);
   useEffect(() => {
     async function getDataFromDB() {
-      const docRef = doc(db, "products", "4b2bevvGE22wkCjYRa7f");
+      const docRef = doc(db, "products", "SqwjdhAlNFfYApqz4jhm");
       const docSnap = await getDoc(docRef);
 
       if (docSnap.exists()) {
-        // console.log(docSnap.data().productData);
+        console.log(docSnap.data().productData);
         setData(docSnap.data().productData);
       } else {
         // docSnap.data() will be undefined in this case
